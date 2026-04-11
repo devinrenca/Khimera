@@ -327,18 +327,12 @@ footer {
   text-align: center;
 }
 
-.social-icons {
-  margin-bottom: 15px;
+.footer-comments {
+  color: #f7f7f7;
 }
 
-.social-icons i {
-  margin: 0 10px;
-  font-size: 20px;
-  cursor: pointer;
-}
-
-.social-icons i:hover {
-  color: #aaa;
+.footer-copy {
+  padding-top: 1em;
 }
 
 /* RESPONSIVE */
@@ -350,6 +344,10 @@ footer {
   .header{
     padding: 0;
     margin: 0;
+  }
+  
+  .intro {
+    padding: 0 1em;
   }
   
   .mission {
@@ -370,10 +368,18 @@ footer {
     margin: auto;
     padding: 0 0 2em 0;
   }
+  
+  .statement2 {
+    padding: 0;
+  }
 
   .statement2 h3 {
     padding: 0;
     border: 0;
+  }
+  
+  .content {
+    margin: 1em;
   }
   
   .column {
